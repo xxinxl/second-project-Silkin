@@ -36,3 +36,5 @@ const clearHistory = () => {
   history = [];
 };
 
+
+export { add, subtract, multiply, divide, calculate, getHistory, clearHistory };

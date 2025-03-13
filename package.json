@@ -1,0 +1,16 @@
+{
+  "type": "module",
+  "scripts": {
+    "test": "NODE_OPTIONS=--experimental-vm-modules jest --coverage"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "transform": {},
+    "moduleFileExtensions": ["js", "json", "jsx", "ts", "tsx", "node"],
+    "moduleDirectories": ["node_modules", "src"],
+    "testMatch": ["**/__tests__/**/*.test.js"]
+  }
+}
